@@ -1,1 +1,9 @@
-
+body { font-family: Arial; margin:0; background:#f4f4f4; }
+header { background:#0f172a; color:white; text-align:center; padding:15px; }
+nav a { color:white; margin:0 10px; text-decoration:none; }
+nav a:hover, nav a.active { border-bottom:2px solid #2563eb; }
+.hero { padding:20px; background:white; text-align:center; }
+.small-blue { color:#2563eb; font-weight:bold; font-size:12px; }
+button { background:#2563eb; color:white; border:none; padding:10px 20px; border-radius:5px; margin:5px; }
+.card, .tech-card { background:white; padding:15px; margin:10px; border-radius:8px; box-shadow:0 0 5px #ddd; }
+footer { background:#0f172a; color:white; text-align:center; padding:10px; }
