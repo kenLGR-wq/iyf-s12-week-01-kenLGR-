@@ -1,17 +1,129 @@
-<h2>About Me</h2>
-<p>Hello! My name is kibet ken . I am a student learning software development...</p>
-<link rel="stylesheet" href="style.css">
-<h2>My Goals</h2>
-<ul>
-  <li>Build responsive websites.</li>
-  <li>Become a skilled web developer.</li>
-  <li>Learn full-stack development.</li>
-  <li>Build real-world projects.</li>
-  <li>Create a strong developer portfolio.</li>
-</ul>
 
-<h2>Technologies I Am Learning</h2>
-<div class="tech-card">HTML - Website structure and semantic HTML</div>
-<div class="tech-card">CSS - Styling, layouts and responsive design.</div>
-<div class="tech-card">JavaScript - Interactivity and dynamic websites.</div>
-<div class="tech-card">Git & GitHub - Version control and project collaboration.</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn more about Kibet Ken, my interests, skills, and goals.">
+  <title>About Me | Kibet Ken</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="logo">Kibet<span>Ken.</span></a>
+      <button class="menu-toggle" aria-label="Open navigation"
+        aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h1>About <span>Me</span></h1>
+        <p>My story, interests, skills, and ambitions in technology.</p>
+      </div>
+    </section>
+
+    <section class="section container about-layout">
+      <div class="about-image reveal">
+        <div class="profile-frame about-profile">
+          <img src="images/profile.jpg" alt="Kibet Ken"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="profile-placeholder" aria-label="Profile photo placeholder">KK</div>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <p class="eyebrow">MY STORY</p>
+        <h2>Curious mind. Growing skills. Big goals.</h2>
+        <p>
+          My name is Kibet Ken. I'm an aspiring IT professional with an
+          interest in programming, web development, and digital innovation.
+        </p>
+        <p>
+          I believe that learning happens through practice. Every project
+          gives me an opportunity to understand new concepts, learn from
+          mistakes, and improve my ability to create useful solutions.
+        </p>
+        <p>
+          My goal is to strengthen my technical skills, build a portfolio
+          of practical projects, collaborate with others, and keep growing
+          as a developer.
+        </p>
+        <a class="btn" href="projects.html">See My Projects</a>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY TOOLKIT</p>
+          <h2>Skills I'm Developing</h2>
+          <p>My current learning areas and technologies.</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-item">
+            <div class="skill-label"><span>HTML5</span><span>Learning</span></div>
+            <div class="skill-track"><div class="skill-fill" style="--level:75%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>CSS3</span><span>Learning</span></div>
+            <div class="skill-track"><div class="skill-fill" style="--level:65%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>JavaScript</span><span>Learning</span></div>
+            <div class="skill-track"><div class="skill-fill" style="--level:40%"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-label"><span>Git & GitHub</span><span>Learning</span></div>
+            <div class="skill-track"><div class="skill-fill" style="--level:50%"></div></div>
+          </div>
+        </div>
+        <p class="small-note">Progress bars are illustrative, not formal skill assessments.</p>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY VALUES</p>
+        <h2>What Drives Me</h2>
+      </div>
+      <div class="card-grid three-columns">
+        <article class="feature-card reveal">
+          <div class="card-icon">🎯</div>
+          <h3>Consistency</h3>
+          <p>Making steady progress through regular practice.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="card-icon">🔍</div>
+          <h3>Curiosity</h3>
+          <p>Asking questions and exploring how technology works.</p>
+        </article>
+        <article class="feature-card reveal">
+          <div class="card-icon">🤝</div>
+          <h3>Collaboration</h3>
+          <p>Learning from others and sharing ideas respectfully.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span class="current-year"></span> Kibet Ken. All rights reserved.</p>
+      <a href="contact.html">Get in touch</a>
+    </div>
+  </footer>
+</body>
+</html>
+
