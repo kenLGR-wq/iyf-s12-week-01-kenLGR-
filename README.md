@@ -2,7 +2,7 @@
 
 <h3 align="center">A passionate frontend developer from ..Nairobi,Kenya</h3>
 
-- 🔭 I’m currently working on [Website development](Lgrtech98.github.io)
+- 🔭 I’m currently working on [LGR FASHION STORE](https://bananarepublic.gap.com/?ssiteID=BR)
 
 - 🌱 I’m currently learning **Programming**
 
@@ -17,7 +17,7 @@
 
   
 
-- 👨‍💻 All of my projects are available at {lgrtech98.github.io}
+- 👨‍💻 All of my projects are available at ☝️**LGR FASHION STORE**
   
 
 - 💬 Ask me about **React, vue**
